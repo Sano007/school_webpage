@@ -1,0 +1,277 @@
+.galeria-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.galeria-galeria {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(165, 215, 232, 1);
+}
+.galeria-footer {
+  top: 777px;
+  left: 0px;
+  width: 100%;
+  height: 247px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(11, 36, 71, 1);
+}
+
+.header-button {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header-button:hover {
+  background-color: #92929244;
+}
+
+.main-buttons {
+  gap: 40px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+
+.main-text53 {
+  color: rgba(87, 108, 188, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Bowlby One SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.main-olaboratriu {
+  width: 100px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.galeria-text {
+  top: 34px;
+  left: 33px;
+  color: rgba(255, 255, 255, 1);
+  width: 97px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.galeria-onas {
+  top: 98px;
+  left: 34px;
+  width: 96px;
+  height: 26px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text02 {
+  color: rgba(255, 255, 255, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.galeria-kontakt {
+  top: 147px;
+  left: 37px;
+  width: 112px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text04 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.galeria-galery {
+  gap: 25px;
+  top: 117px;
+  left: 33px;
+  width: 697px;
+  display: flex;
+  padding: 0 30px;
+  position: absolute;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.galeria-image3 {
+  width: 116px;
+  height: 97px;
+}
+.galeria-image4 {
+  width: 129px;
+  height: 97px;
+}
+.galeria-image5 {
+  width: 130px;
+  height: 97px;
+}
+.galeria-image6 {
+  width: 187px;
+  height: 105px;
+}
+.galeria-header {
+  gap: 292px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 17px 81px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(11, 36, 71, 1);
+}
+.galeria-lirkis {
+  width: 136px;
+  height: 49px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text09 {
+  color: rgba(87, 108, 188, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Bowlby One SC;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.galeria-buttons {
+  gap: 40px;
+  width: 833.6666259765625px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.galeria-olaboratriu {
+  width: 100px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text11 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.galeria-projekty {
+  width: 63px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.galeria-galria {
+  width: 54px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.galeria-text15 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
